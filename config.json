@@ -1,0 +1,13 @@
+{
+  "accepts": ["id"],
+  "classes": ["Chromosome"],
+  "files" : {
+    "css" : "dist/style.css",
+    "js" : "dist/bundle.js"
+  },
+  "toolName" : {
+    "human" :"imjs Sorting Test",
+    "cljs" :"imjsSortingTest"    
+  },
+  "version": 2
+}

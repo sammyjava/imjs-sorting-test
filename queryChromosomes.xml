@@ -1,0 +1,9 @@
+<query name=""
+       model="genomic"
+       view="Chromosome.name Chromosome.length Chromosome.primaryIdentifier"
+       longDescription=""
+       sortOrder="Chromosome.name asc" constraintLogic="A and B and C">
+  <constraint path="Chromosome.assemblyVersion" code="A" op="=" value="gnm1"/>
+  <constraint path="Chromosome.organism.abbreviation" code="B" op="=" value="phavu"/>
+  <constraint path="Chromosome.strain.identifier" code="C" op="=" value="G19833"/>
+</query>
