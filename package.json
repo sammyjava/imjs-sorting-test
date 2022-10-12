@@ -6,7 +6,7 @@
   "homepage": "http://www.intermine.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/legumeinfo/imjs-sorting-test"
+    "url": "https://github.com/sammyjava/imjs-sorting-test"
   },
   "scripts": {
     "test": "jest",
